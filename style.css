@@ -1,0 +1,35 @@
+/* 태그 선택자 */
+p {
+    text-align: center;
+    color: red;
+}
+
+/* 태그와 함께쓰는 선택자 */
+p.center {
+    text-align: right;
+    color: blue;
+}
+
+/* 아이디 선택자 */
+#center {
+    text-align: left;
+    color: purple;
+}
+
+/* 클래스 선택자 */
+.center {
+    text-align: center;
+    color: green;
+}
+
+/* 연결 선택자, 그룹선택자 */
+h1 , p {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+p b {
+    color: blue;
+    font-weight: 100;
+}
