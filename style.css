@@ -1,28 +1,28 @@
-/* 태그 선택자 */
+/* 태그 선택자 
 p {
     text-align: center;
     color: red;
 }
 
-/* 태그와 함께쓰는 선택자 */
+ 태그와 함께쓰는 선택자 
 p.center {
     text-align: right;
     color: blue;
 }
 
-/* 아이디 선택자 */
+ 아이디 선택자 
 #center {
     text-align: left;
     color: purple;
 }
 
-/* 클래스 선택자 */
+ 클래스 선택자 
 .center {
     text-align: center;
     color: green;
 }
 
-/* 연결 선택자, 그룹선택자 */
+ 연결 선택자, 그룹선택자 
 h1 , p {
     color: red;
     text-align: center;
@@ -32,4 +32,28 @@ h1 , p {
 p b {
     color: blue;
     font-weight: 100;
+}
+*/
+body {
+    font-size:  15px;
+    line-height: 1.6em;
+}
+h1 {
+    font-weight: normal;
+    color:dodgerblue;
+    font-style: oblique;
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
+}
+p.text {
+    font-weight: bold;
+   font-style: italic;
+   text-align: justify;
+}
+
+p.copy {
+    text-transform: uppercase;
+    text-align: center;
 }
